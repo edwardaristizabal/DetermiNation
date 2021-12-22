@@ -1,0 +1,10 @@
+const database = 'Gestion_proyectos';
+const collection = 'avances';
+
+use(database);
+
+  db.gestion_avances.insertOne( { 'id_proyecto': db.proyectos.findOne({"proyecto": "619c7938d08b50f7629482e0",}, {_id: 1})._id,  
+       "fecha": "2021-07-24T13:18:34.441Z",
+       "descripcion": "este es un gran avance",
+       "observaciones": "prestar atencion a la base de datos"
+       })

@@ -1,0 +1,15 @@
+const database = 'Gestion_proyectos';
+const collection = 'proyectos';
+
+use(database);
+
+ db.proyectos.insertMany([
+     {"nombre":"Proyecto academico",
+      "presupuesto": 120.00,
+      "fechaInicio": "2020-02-01T13:12:34.441Z",
+      "fechaFin":"2021-01-01T13:18:34.441Z",
+      "lider": "619c731cd08b50f7629482d5", {_id: 1})._id,
+      'estado':'Activo',
+      'fase ': 'Iniciando'
+   }, 
+])
